@@ -7,148 +7,69 @@ output: word_document
 \newpage
 
 # Introduction
-Toboggan Creek, situated near Smithers, British Columbia, is a glacial tributary to the Bulkley River that flows into the Skeena River. This system sustains a wild coho (*Oncorhynchus kisutch*) population that has been augmented with a hatchery setting since 1984. Since its inception, the Toboggan Creek Salmon and Steelhead Enhancement Society (TCSSES) has overseen the hatchery operations and conducted most of the stock assessment activities tied to the program. The Toboggan Creek program is a key indicator for coho populations, providing vital data on smolt production, harvest rates, marine survival, and annual escapement. 
+Toboggan Creek, situated near Smithers, British Columbia, is a glacial tributary to the Bulkley River that flows into the Skeena River. This system sustains a coho salmon (Oncorhynchus kisutch) population that has been augmented by a hatchery since 1984. Since its inception, the Toboggan Creek Salmon and Steelhead Enhancement Society (TCSSES) has overseen the hatchery operations and conducted most of the stock assessment activities tied to the program. The Toboggan Creek program is an indicator for North Coast coho populations, providing vital trend information about smolt production, harvest rates, marine survival, and annual escapement.
 
-Coded wire tags (CWT) have been an essential tool for exploitation rate assessment data for Toboggan coho (Middle Skeena Conservation Unit) and has offered the longest-standing full indicator data for northern British Columbia. Since 1988, the full indicator program has been operational and crucial for assessing stock status (DFO NC StAD, 2022). An advantage of using CWTs is the ability to draw information on survival and/or abundance of a specific stock from a highly mixed-stock fisheries (PSC NBTC, 2002). These models are particularly strong in predicting marine survival for tagged hatchery smolts. However, a consistent relationship between marine survival rates between both wild and hatchery smolts are required to assess wild smolt production (Chicatun, 2024). 
+Coded wire tags (CWT) have been an essential tool for exploitation rate assessment data for Toboggan coho (Middle Skeena Conservation Unit) and has offered the longest-standing full indicator data for northern British Columbia. Since 1988, the full indicator program has been operational and crucial for assessing stock status (DFO NC StAD, 2022). An advantage of using CWTs is the ability to draw information on survival and/or abundance of a specific stock from highly mixed-stock fisheries (PSC NBTC, 2002). These models are particularly strong in predicting marine survival for tagged hatchery smolts. However, whether the survival and exploitation of hatchery and natural origin coho is the same is an assumption that has been recently called under question (Chicatun, 2024).
 
-The Toboggan Creek smolt project, which began in 1995 under the direction of SKR Consultants, was designed to collect data on the number and age distribution of coho smolts migrating from the creek. In this context, "wild" coho refers to those of natural origin, as hatchery-bred adults are allowed to spawn with wild individuals in the creek. A fyke trap was initially used then evolved to using rotary screw traps in 1998 to reduce stress and mortalities on the salmon. In 1999, CWT tags were introduced to better estimate the wild population. In 2000, a wolf type weir (Wolf, 1951) was constructed upstream of the Toboggan Creek hatchery and an inclined plane trap (IPT) was installed downstream of the hatchery (SKR Consultants, 2001). 
+The Toboggan Creek smolt project, which began in 1995 by DFO and delivered by SKR Consultants, was designed to collect data on the number and age distribution of coho smolts migrating from the creek. In this context, “wild” coho refers to those of natural origin, as hatchery-bred adults are allowed to spawn with wild individuals in the creek. A fyke trap was initially used then trapping evolved to using rotary screw traps (RSTs) in 1998 to reduce stress and mortalities on the salmon. In 1999, CWT tags were used on the wild smolts to better estimate the wild population. In 2000, a wolf type weir (Wolf, 1951) was constructed upstream of the Toboggan Creek hatchery to allow greater catch of coho and upstream passage of steelhead (O. mykiss), and an inclined plane trap (IPT) was installed downstream of the hatchery (SKR Consultants, 2001).
 
-Following a temporary pause, the project resumed in 2020, now managed by the Toboggan Creek Salmon and Steelhead Society, under the guidance of DFO stock assessment. While the program serves as an indicator for wild fish populations, it had only marked hatchery-origin coho, operating under the assumption that hatchery and wild-origin smolts follow similar migration routes and distributions. However, data from 2020 to 2023 suggests that survival rates may differ between wild and hatchery-origin coho, with environmental factors, management practices, and biological characteristics potentially influencing survival outcomes (Chicatun, 2024). 
+Following a temporary pause, the project resumed by DFO in 2020, operated by the Toboggan Creek Salmon and Steelhead Society. Marked hatchery smolts volitionally out-migrated from the hatchery ponds  and was used as the “marked” component of the mark-recapture program estimating the smolt population size. While the Toboggan program serves as an indicator for wild fish populations, it had only marked hatchery coho, operating under the assumption that hatchery and wild-origin smolts follow similar migration routes and distributions. However, data from 2020 to 2023 suggests that survival rates may differ between wild and hatchery-origin coho, with environmental factors, management practices, and biological characteristics potentially influencing survival outcomes (Chicatun, 2024).
 
-The absence of CWT hatchery fish releases in the spring of 2024, due to a disease outbreak at the hatchery, created challenges for determining exploitation rates for that year. However, this setback presented a valuable opportunity to focus efforts on a wild-marking initiative. Therefore, DFO Stock Assessment ran a wild smolt trapping program in spring 2024 and coded-wire ragged over 15,000 smolts, and assessed the population size at just over 30,000. 
+The absence of CWT hatchery fish releases in the spring of 2024, due to a disease outbreak at the hatchery, created challenges for determining exploitation rates for that year class. However, this setback presented a valuable opportunity to focus efforts on a wild-marking initiative. Therefore, DFO Stock Assessment ran a wild smolt trapping program in spring 2024 to bridge the gap of this missing year.   
+
 
 ## Objectives
-1.	Estimate the wild smolt population size out-migrating from Toboggan Creek using mark-recapture between traps.
+1.	Estimate the wild smolt population size out-migrating from Toboggan Creek using mark-recapture.
 2.	Characterize size and age composition of the wild smolt outmigration from Toboggan Creek.
-3.	Apply a large number of coded-wire tags to assess marine exploitation.
+3.	Apply a large number of marks (adipose clip and coded-wire tag) to assess marine exploitation.
+
 
 # Methods
-The Toboggan Smolt program requires intensive labor, especially during peak migration, high water and debris events. RST traps are prone to debris accumulation in their live boxes from leaves, logs, and branches, and can lead to high mortality rates among juvenile fish. Therefore, regular checks and working in split shifts were required. The programs ran from Sunday evening to Friday during the regular migration period which was at the beginning and end of the program. During the peak migration, shifts ran from Monday to Sunday. The shifts were split into two a day: a morning shift beginning at 5 AM and ending once all the fish from the two traps were processed, and an evening shift at 8 PM for setting the traps. Traps had to be set in the evening to avoid holding fish for extended periods of time. 
+*Note: Methods are adapted from the Toboggan Smolt Standard Operating Procedures document. For details, see: Chicatun, V., & Peck, K. (2024). Toboggan Smolt Standard Operating Procedures 2024 – DRAFT V2. Fisheries and Oceans Canada, North Coast Stock Assessment Branch.*
 
-During peak migration and high water events, the number of visits were dependent on the conditions of weather, forecast, and timing. The crew lead was responsible for consulting with the lead biologist (if needed) and deciding whether or not the number of visits needed to increase. 2024 was in line with data from previous years where work intensity increased after the second week of May and peaked from the end of May to mid-June. 
+The Toboggan Smolt program required intensive labor, especially during peak migration, high water and debris events. Rotary screw traps were prone to debris accumulation in their live boxes from leaves, logs, and branches, and could lead to high mortality rates among juvenile fish if left unchecked. Therefore, regular checks and working in split shifts were required. The programs ran from Sunday evening to Friday during the start and end of the migration period when fewer smolts were intercepted. During the peak migration, shifts ran from Monday to Sunday. The shifts were split into two per day: a morning shift beginning at 5 AM and ending once all the fish from the two traps were processed, and an evening shift at 8 PM for setting the traps. Traps were set overnight only because this was the time when the majority of the smolts out-migrated. 
 
-## Roles and Responsibilities:
-**Lead Biologist:**
+During peak migration and high water events, the number of visits were dependent on the conditions of weather, forecast, and timing. Smolt migration timing in 2024 was similar to previous years where work intensity increased after the second week of May and peaked from the end of May to mid-June.
 
-* Planning and Oversight: Develops the overall plan for the smolt program, ensuring clear, attainable objectives are set within the established timeline. Oversees its implementation, making informed decisions and adjustments as necessary.
-* Field Support: Supports field activities, especially during peak periods or when specialized expertise is required.
-* Administrative Duties: Handles administrative responsibilities, including payment processing and overtime approvals for EG_01 technicians, while ensuring compliance with financial and operational protocols. 
-* Communication: Acts as the primary liaison for external stakeholders and senior biologists, providing regular updates on progress and outcomes. Facilitates smooth communication within the team and with landowners. 
+Two sites were selected for the operation of this program.
 
-**Crew Lead Technician:**
+- Red Barn: Located downstream of the hatchery and approximately 2 km upstream of the adult fence, allowing full mixing of marked and unmarked fish before reaching the second site. A 4-ft diameter RST was installed at this site. 
 
-* Field Program Management: Oversees the daily operations of the field program, including trap setup, condition monitoring, and determining the frequency of site visits. Takes prompt action when issues are identified.
-* Team Management: Directly supervises EG_01 technicians, assigns tasks, and ensures work is completed efficiently and safely. Oversees administrative responsibilities such as timesheet completion and travel coordination, while providing necessary training and support.
-* On-Call Support: Available to provide on-call support to EG_01 technicians, offering guidance and addressing any issues that arise during field operations.
+-	Adults Fence: Located 4.5 km downstream of the hatchery.  A 6-ft diameter RST was installed at this site. 
 
-**EG_01 Technicians:**
+Rotary screw traps are sampling devices designed to capture downstream migrating juvenile fish. They are large, cylindrical traps that float on pontoons and can be positioned and set overnight to funnel out-migrating smolts into a holding chamber. Continuous rotation was crucial for trapping success, and if debris obstructed this movement, it would cause a full night of trapping to be lost because the fish could swim out of the trap box. Regular trap check-ups included inspections of the cable system, connections, and pulleys to ensure they were in good condition and securely fastened. 
 
-* Field Activities Execution: Conducts the majority of field activities, including checking traps, collecting and processing fish, and ensuring equipment is properly maintained. 
-* Data Collection: Responsible for recording accurate and timely data on fish captures, environmental conditions, and relevant observations during site visits. 
-* Equipment Maintenance: Maintains the cleanliness, functionality, and proper setup of traps and other field equipment, handling minor repairs and escalating major issues to the Crew Lead Technician.  
-* Safety Compliance: Follows established safety protocols to prevent injuries and minimizes environmental impact, and actively participates in safety briefings and training.
+# Procedures:
 
-**Toboggan Creek Society Technician:**
+The primary goal was to minimize fish mortality and protect infrastructure. To meet the minimum target of 7000 CWT-marked smolts, both sites carried out adipose clipping and coded-wire tag  marking with standard 1.1 mm tags with several codes (see appendix X for codes and number of fish they were applied to). Additionally, a caudal clip was applied to smolts at the upstream trap to estimate weekly outmigration, alternating the upper and lower caudal clip each week. Recaptured fish at the downstream trap were inspected for the caudal clip.. Biosampling, including length, weight, and age structure data, was conducted at both sites, with up to 25 smolts measured at each location per day. On most days, at least three crew members were needed for daily operations.
 
-* Field Activities Execution: Assists EG_01 technicians with fieldworks during the peak outmigration period. 
-* Data Collection: Supports in gathering comprehensive and accurate data, following the guidance of EG_01 technicians.
-* Equipment Maintenance: Provides assistance with the upkeep and maintenance of equipment when necessary.
-* Safety Compliance: Follows safety protocols and guidelines to minimize risks and environmental impact. Participates in safety briefings and ensures proper training and PPE are used when working around cold water.
+<u>**Morning Shift**</u>
+**Environment:** To investigate the relationship between environmental variables and coho smolt outmigration, we examined discharge and temperature data throughout the trapping period. Discharge data was obtained from the Water Survey of Canada’s real-time hydrometric station on Simpson Creek at the Mouth (station 08EE012; Environment Canada 2025), which served as a proxy for Toboggan Creek in the absence of a direct gauge. This substitution was deemed appropriate through DFO staff observation of flow patterns during field visits. Water temperatures and levels were taken by DFO technicians at the start of each site visit for both the Red Barn and Fence sites.
 
-## Sites:
-### Site 1: Red Barn - Adema Property
-This site was selected in 2024 with approval from the landowners. It is partway between the TCSSES hatchery and the Landrock’s property. At this site a 4-ft diameter RST was installed.
+**Overnight Retention Checks:** On Mondays and Tuesdays, up to 50 tagged fish were placed in a holding pen overnight to check for coded wire tag overnight retention. This retention rate was then applied to the entire week, so consistency in terms of tagger, methodology, etc., were maintained for the remainder of the week. An appropriate concentration of tricaine methanesulfonate (TMS or MS222) was used to sedate the fish. A 5-gallon bucket and medium-sized dip nets were used to transport the fish from the RST holding box to the biosampling area. Battery-operated bubblers with diffusion stones were placed in the buckets to provide aeration for the waiting fish. A V-detector (Northwest Marine Technologies) was used to check for CWT tag retention and tallied by tag code. Any fish that did not retain their tags were re-tagged. Any overnight mortalities were checked for along with possible causes for death and tag placement. The fish were then released in a calm location downstream once they recovered from the MS222.
 
-### Site 2: Adult Fence - Landrock Property.
-The current (2020-2024) RST smolt trap and adult fence are located approximately 4.5 km downstream from the hatchery, accessible via an agreement with a landowner. This site was modified to be more deep and channelized, making it better suited for the RST. A 6-ft diameter RST was installed in 2024 to replace the 4-ft RST that was used prior to capture hatchery and wild coho smolts. 
+**Biosampling and CWT Tagging Procedure:** The first 25 juvenile coho (excluding young-of-year fry) were measured for fork length to the nearest millimeter, measuring from the tip of the nose to the fork of the tail, and weights to the nearest 0.1 g. Scales were sampled starting at a fork length of 60 mm, with a target of 5-10 fish sampled for in 5 mm intervals. Any exceptionally large or small fish (down to 60 mm) was monitored for scale sampling. Scales were sent to DFO’s Sclerochronology Lab at the end of the season for age determination.
 
-## Materials:
-* Rotary Screw Trap (x2, one per site), with all associated anchoring and cleaning equipment
-  * Anchor and rope/cable
-  * Spare bits for anchor system (e.g. slings, come-along, carabiners, pulleys, cable, etc.)
-  * Tirfors for adjusting traps up- and downstream
-  * Safety line to shore in case of trap break away
-  * Brushes for cleaning traps
-  * Bucks for water
-* Dipnets (2 big, 2 small)
-* Buckets for fish x6 (green)
-* Shelter and table
-* Fish processing kit
-  * Measuring board (30 cm)
-  * Weigh scale (with calibration weights)
-  * Scale books
-  * Scalpels
-  * Forceps
-  * Fish viewer (small)
-  * Cloths/shop towel
-  * MS222 (Tricaine mesylate) plus graduated cylinder for dilution
-  * Fish processing tubs (four, white)
-  * Aerators/bubblers
-  * Gloves
-  * Fin clipping scissors
-* CWT injectors (handheld) plus accessories and cleaning kit:
-  * Cotton swabs
-  * Alcohol
-  * Petri dishes/trays
-  * Extra head molds
-  * Thimbles (optional)
-* V-detector
-  * Extra batteries (9V)
-  * Testing tag
-* Small water pump
-* Thermometer
-* Waders/PPE (PFDs, gloves, warm clothes)
-* Data sheets (Visit Summary, Fish Counts and Biosampling, Scale Sample Tally, CWT Machine Log)
-* Communication equipment (cell phones, inreach mini)
-* Camera (phone)
-* Generator (optional)
+Unexpectedly, a small number of adipose clipped hatchery coho  from previous years were caught and identified by their healed-over adipose-clip, checked for CWT retention, measured and recorded,  and sacrificed to check the tag code. Hatchery fish were taken back to the office, frozen in Ziplock bags, and later dissected for their CWTs. A dissecting microscope was used to read the CWTs and recorded.
 
-## Rotary Screw Traps (RSTs):
-RSTs are sampling devices designed to capture downstream migrating juvenile fish. They are large, cylindrical traps that float on pontoons and can be positioned and set overnight to funnel out-migrating smolts into a holding chamber. The trap operates by allowing a portion of the stream to pass through a rotating cone, with most of the water flowing freely while the smolts are funneled into the downstream holding tank. The trap’s position relative to the thalweg (main flow) can be adjusted to modify the rotation speed (RPMs) or avoid debris. To enhance trapping efficiency, lead-in wings or panels can be added if the trap remains stationary. However, RSTs require installation in deep pools with adequate current for proper function. Larger smolts may evade the trap, and high rotation speeds or debris buildup in the trap can result in fish mortality. Continuous rotation is crucial for trapping success, and if debris obstructs this movement, it can cause a full night of trapping to be lost.
+All fish >=70 mm were adipose clipped and tagged. Fish <70 mm were kept in a bucket and released. This size cut off was based on historical scale samples determining that coho under <70 mm were young of year At  the Red Barn site, the caudal clip was applied according to the weekly stratification starting on Mondays (Top or Bottom). Fish were sorted based on size and coded wire tagged with the respective head mold size: small fish (70-85 mm): 65/lb head mold, big fish (86-115 mm): 45/lb, and bigger and biggest fish (116-190 mm or >190 mm): 15/lb head mold. Note, only one fish >190 mm was captured and recorded in 2024. In the beginning of the season, a small number of fish were tagged and culled/sacrificed in order to check for correct tag placement. After the first 25 coho, the remaining coho did not have to be weighed and were sorted by eye or using a fish viewer if they were close to the size cut-offs. Every fish tagged was checked for retention using the V-detector and placed in the recovery bucket. Once all the fish were tagged and recovered from the anesthetic, they were released in a calm eddy downstream. 
 
-The RSTs were anchored using a Tirfor to a tree, allowing for upstream-downstream adjustments. A come-along (or cable puller) enabled lateral movements which was important for optimal trap placement or boarding access. This allowed for maneuvering the trap into optimal position as water currents changed, relocating the trap to the river side with the best access for field crews, moving the trap closer to shore for safe crew access, and positioning the trap securely during high water flow events. Regular trap check-ups included inspections of the cable system, connections, and pulleys to ensure they were in good condition and securely fastened. In addition, the 1/2 -inch yellow nylon rope safety line was regularly checked for safety and functionality. These checks were crucial in preventing malfunction and ensuring safe and effective trap operation.  
+Any non-target fish were identified and, if time permitted, measured for length and weight.  
 
-This program required two RSTs: a 6-ft diameter cone and a 4-ft diameter cone. The 6-ft cone features a finer mesh, which is expected to capture a higher number of small fish and young-of-fry compared to the ½’ mesh used in the 4-ft RST.
+<u>**Evening Shift**</u>
+Traps were set in the evening at both sites and recorded. Traps were adjusted based on flow, debris accumulation, overnight temperatures, etc. It was important to try and maximize the catch and minimize any possible trap issues overnight.
 
-## Sampling Protocol:
-The primary goal was to minimize fish mortality and protect infrastructure. Red Barn, being closest to town, was the first site checked each morning for any issues. After addressing any problems at Red Barn’s trap, or if there were no concerns, the team moved on to the Fence for processing. To meet the target of 7000 CWT-marked smolts, both sites carried out CWT marking. Additionally, a caudal clip was applied to smolts at the upstream trap to help estimate the outmigration, with fish inspected at the downstream trap. Biosampling, including length, weight, and age structure data, was conducted at both sites, with up to 25 smolts measured at each location. At least two crew members were needed for daily operations, with the number increasing to three during peak migration periods.
+<u>**Data Analysis**</u>
+All data was compiled daily and entered into Microsoft Excel spreadsheets and subsequently analyzed using R  (version 4.4.2) using the packages tidyverse, readr, ggplot2, dplyr, knitr, kableExtra, scales, tidyr, flextable, FSA, magrittr, dplyr, and nnet. Analysis focused on summarizing counts by species, site, size, and mortalities. An age-length key was created by summarizing the relationship between age and length from the subsample of scale-sampled fish, which was then used to estimate age distribution across the full dataset. A correction for growth over the season was applied .
 
-**Morning Shift:**
+To assess the relationship between weight and length, a log-log linear regression model was applied. This transformation is commonly used because the untransformed relationship is nonlinear: fish typically gain length linearly but accumulate weight volumetrically. Additionally, smaller fish tend to exhibit less variation in weight compared to larger individuals. 
 
-**1.	Red Barn RST Trap Check:** First step was to assess the condition of the creek and the trap to identify any immediate issues. If there were pressing issues, such as debris accumulation in the trap, a partially submerged trap, or a non-spinning trap, then any remaining fish may needed to be released. This was done by parking the trap on the river’s side and winching out the water to prevent any upstream escapement of fish. An immediate visit to the Fence trap was followed as the lower trap was likely experiencing similar issues. Quick action was imperative to avoid permanent damage to the infrastructure or furthering harm to the fish. Fish could be held in retention bins (if available) or held in buckets while the trap box was cleaned out until technicians returned to site.
+Fulton’s Condition Factor (K) was calculated for wild coho smolts to assess body condition, using the formula:  K = W/L^3 x 100,000, where W is weight in grams and L is fork length in mm.
 
-**2.	Transition to the Fence RST:** Upon arrival, the trap and creek conditions were assessed, any major infrastructure issues were addressed, then a Visit Summary sheet was filled out. Then the biosample and tagging station were set up. On Tuesdays and Wednesday morning, overnight night retention checks had to be done. This included checking and recording all retentions and filling out the CWT Machine Log sheet, then releasing the fish downstream once they have recovered from the MS222. The day’s catch of coho smolts were CWT tagged and 25 were biosampled. A random sample of up to 50 tagged smolts were subset for retaining overnight on Mondays and Tuesdays ONLY. The Fish Counts and Biosampling and CWT Machine Log sheets were filled out. 
+Environmental variables such as stream discharge and temperature were sourced or plotted to assess trends and identify potential associations with migration activity.
 
-**3.	Return to Red Barn RST:** All steps above were repeated at the Red Barn site. Caudal fin clips were applied at this site only to all juvenile out-migrating coho salmon greater than or equal to 70 mm. Upper and lower caudal fin clips were applied based on an alternate schedule. Any clipped fish found at this trap was noted.
+All data manipulation and visualization were conducted using either R or Microsoft Excel. 
 
-A random sample of 25 fish were biosampled, then additional samples were taken in cases of extreme sizes for the scales. Scale were sampled starting at 60 mm, in 5 mm intervals. Any adipose clipped hatchery Coho and Chinook from previous years were checked for CWT retention, culled, and recorded on the Fish Counts and Biosampling sheet. Hatchery fish were taken back to the office, frozen in ziplock bags, and later dissected for their CWTs. A microscope was used to read the CWTs and recorded. 
-
-Any bucket or tray containing fish had to have a battery-operated aerator. These buckets and trays had to be regularly checked for any increase in temperature as this decreases the effectiveness of the anesthesia and fish health. The temperature should never exceed more than a 2°C increase, and the temperature between the bucket and creek should not exceed a difference of 2°C. Any non-target fish were identified and measured for length and weight if time permitted. This was bottom priority so if there were too many coho to manage, then non-target fish were only identified and counted. And importantly, technicians kept in mind that the traps were accessible through private lands that were graciously permitted access by the landowners. They were respectful, avoided driving on fields, blocking roadways, or doing anything that would counter to the agreements that were discussed with the landowners.
-
-The tasks were divided between the 2-3 technicians:
-
-- **Technician 1** was in charge of anesthetizing the fish, bio-sampling, checking for recaps, applying fin clip(s), and sorting by eye (or fish viewer) into biggest (>190 mm), bigger (116-190mm), big (86-115 mm), and small (70-85 mm). Any fish 60-69 mm was considered a “little” and released without a tag or clip. Note, only one fish >190 mm was captured and recorded in 2024. Any exceptionally large or small fish (down to 60 mm) was monitored for scale sampling and placed in an additional 5 rows only. This technician was also responsible for managing the fish anesthesia for the tagger as well as tallying and recording data on the Fish Counts and Biosampling sheet (the latter would be appointed to the third technician if present).
-- **Technician 2** was responsible for checking for recaps, double-checking that new fish were all adipose-clipped (and caudal-clipped at the Barn site), applying the CWTs to the coho using the handheld tagger, and scanning with a V-detector. If no tag was detected, the fish was retagged and added to the recovery bucket. A 65/lb head mold was used for small fish (70 -85 mm), 45/lb head mold for big fish (86-115 mm), and a 15/lb head mold for bigger and biggest fish (>116 mm). 
-- **Technician 2** tallied the fish and recorded data on the Fish Counts and Biosampling sheet. 
-- If overwhelmed by the amount of scale samples to take, the same procedure was taken but instead of releasing the tagged fish into the recovery bucket, they were put in another white bin and sampled, remeasured, and matched back to the original measurement at the end.
-
-**Evening Shift:**
-
-Traps were set in the evening at both sites and recorded in the Visit Summary data sheet. Traps were adjusted based on flow, debris accumulation, overnight temperatures, etc. It was important to try and maximize the catch and minimize any possible trap issues overnight. 
-
-## Detailed Operational Procedures:
-
-**Overnight Retention Checks:** On Mondays and Tuesdays, up to 50 tagged fish were placed in a holding pen overnight to check for CWT tag overnight retention. This retention rate was then applied to the entire week, so consistency in terms of tagger, methodology, etc., were important. A graduated cylinder was used to measure 25 ml of the 12g/L MS222 stock solution and added to the 6L water container. A 5-gallon bucket with holes drilled around the top and medium-sized dip nets were used to transport the fish from the holding pen to the biosampling area. Battery-operated aerators were placed in the buckets to provide oxygen. The V-detector was used to check for CWT tag retention and tallied by tag code. The number of tags retained and not retained as well as any mortalities were recorded in the CWT Machine Log sheet. Any fish that did not retain their tags were retagged. Any overnight mortalities were checked for along with possible causes for death and tag placement. The fish were then released in a calm location downstream once they have recovered from the MS222.
-
-**Fish Removal from RST Traps:** Technicians boarded the traps and left the cone down and spinning until all the fish were removed to prevent escapement. Fish were then extracted from the trap by using a dip net while cleaning off any debris to ensure all fish were accounted for. The large fish were released after identifying and adding them to the data sheet. All fry were released without counting. A 5-galloon modified bucket and medium-sized dip nets were used to transport the fish from the live box to the biosampling area with battery-operated aerators placed in the buckets. If there were problems with the trap and fish had to the taken out of the live box without immediate biosampling, they were held in the floating holding pen. Otherwise, trap maintenance was left till the end. If any debris was likely to come down during the day, the trap was winched out of the water and secured on the river’s side. 
-
-**Biosampling and CWT Tagging Procedure:** If the MS222 solution was not mixed for the retention checks, then a graduated cylinder was used to measure 25 ml of the 12g/L MS222 stock solution and added to the 6L water container. Fish took about 1 to 2 minutes to become sedated and took about 1 to 4 minutes to fully recover once returned to freshwater. If the effects of the anesthesia wore down throughout the day, another 5 ml of stock solution was added. If the fish were sedated under 1 minute, the solution was diluted with fresh water or remade with fresh creek water. This could have meant too much stock solution was added, not enough water was added, or the temperature increased. 
-
-The first 25 juvenile coho (excluding young-of-year fry) were measured for fork length to the nearest millimeter, measuring from the tip of the nose to the fork of the tail, and weights to the nearest 0.1g. These were recorded in the Fish Count and Biosampling sheet. Scales were collected as needed to fill the Scale Sample Tally sheet and technicians were careful to keep the scale book dry. Scales were sampled by, first, cleaning off the fish’s left side with water or wiping gently with paper towels from head to posterior. All dirt, tissues, and scales left from previous specimens were removed and a scalpel was used to gently scrape the blade in a posterior to anterior direction over the preferred area of the fish’s left side, teasing the scales from their pockets within the preferred area. The blade was kept at a slight angle to the fish side. Without turning the scalpel over, the scales were then deposited onto the scale card square by slowly dragging the blade edge over to the gummed surface. The scales would slide onto the square and the blade was used to spread the scales evenly within the square. Alternatively, a blunt scalpel was used to gently scrape the blade in an anterior to posterior direction over the preferred area of the fish’s left side, teasing the scales from their pockets. Once 10-15 scales were out, the flat of the blade was swiped to pick up the scales and placed down in the square of the book without flipping. The blade was then used to evenly spread the scales in the square. 
-
-All fish were examined for adipose and caudal fin clips. If any fish were a recapture, then length, weight, and the Recap Info section of the Fish Counts and Biosampling sheet were recorded.  All fish >=70 mm were adipose clipped and tagged. Fish <70 were kept in a bucket and released. This info was recorded in the Fish Count and Biosampling sheet. At the Red Barn site, the caudal clip was applied according to the Caudal Clip schedule (Top or Bottom) and recorded in the New Tag Info section. Fish were sorted based on size into respective trays for the tagger: small fish (70-85mm): 65/lb head mold, big fish (86-115 mm): 45/lb, and bigger and biggest fish (116-190 mm or >190 mm): 15/lb head mold. After the first 25 fish, fish did not have to be weighed and were sorted by eye or using a fish viewer. Each sorted fish was tagged and tallied using a tally whacker or the scratch tally section at the bottom of the Fish Counts and Biosampling sheet. The totals tagged were also recorded as one row per size. Every fish tagged was checked for retention using the V-detector and placed in the recovery bucket. Once all the fish were tagged and recovered from the anesthetic, they were released in a calm spot downstream. All equipment was cleaned, including the trap box and cone of the trap using a wire brush and buckets of water to remove all debris and leaves. 
-
-The CWT Multishot Injector was submerged in fresh water and cleaned of debris frequently between tagging to ensure smooth operation. At the end of the day, the injector was disassembled according to the manual and cleaned with alcohol and dried to prevent corrosion. 
 
 \newpage
 
@@ -183,7 +104,7 @@ library(nnet)
 ```
 
 ```{r load-data}
-file_path <- "C:/Users/KIMS/Documents/toboggan__smolt/toboggan_smolt_dataentry_COPY.csv"
+file_path <- "C:/Users/KIMS/Documents/toboggan__smolt/toboggan_smolt_dataentry_FINAL 2024.csv"
 df_fish <- read_csv(file_path)
 ```
 
@@ -224,16 +145,23 @@ summary_table <- df_fish %>%
   arrange(Species)
 
 summary_table %>%
-  kable(caption = "Table 1. Total count of fish for each species.", format = "pandoc") %>%
+  kable(caption = "Table 1. Total count of fish for each juvenile species.", format = "pandoc") %>%
   kable_styling(full_width = TRUE, position = "center", bootstrap_options = c("striped", "hover"))
 ```
 
 
-A total of 18578 wild coho and 32 hatchery coho salmon were caught throughout the season. The hatchery coho were culled and taken back to the office to be dissected for their CWTs. Of the 18 hatchery coho, 8 were identified as 2023 releases and the rest were unidentifiable and therefore could not be traced back to a release year. The average fork length of the hatchery coho was 122.89 mm and the average weight was 19.93 g. Scale samples were taken for 15 of the hatchery coho and were all aged to be on their 2nd year of life (Gilbert-rich age). 6 coho that were previously identified as hatchery were corrected to be wild recaptures after CWT readings. 6 other coho that were previously identified as hatchery were corrected to be wild recaptures after being aged and coming back to be on their 2nd year of life (which 2023 hatchery smolts can not be). Steelhead or rainbow trout were the most prevalent bycatch and only a small number of other species were observed.
+*Note that these were hatchery fish released in previous years, identified by their healed-over adipose clip scar in the field and confirmed with dissected tag codes.
+
+A  total of 18,615 coho smolts were caught throughout the season, and 20 of these were suspected to be hatchery releases from the previous spring based on their healed-over adipose fins, lack of a secondary mark and length (Table 1). These hatchery fish were sacrificed to retrieve the codes on their CWTs and all but 3 of these fish were aged with scale samples. Of these fish, 12 had coded-wire tags retained and 10 were readable as 2023 hatchery releases from the 2021 brood year. The remainder were aged as 3 year olds or assumed to be hatchery releases from the previous year based on their similar size, healed adipose scar and lack of a secondary mark. The average fork length of the hatchery coho was 122.89 mm (+/- 9.88 SD) and the average weight was 19.74 g (+/- 4.14 SD).
+
+Steelhead or rainbow trout (O. mykiss) were the most prevalent juvenile bycatch and only a small number of other species were observed (Table 1). Adult bycatch were released without counting. 
+
+Occasional periods of very low or very high flows impacted trap efficiency (see Figure 5 for details). A total of 2 missed trap days/nights were lost because of high flows or debris, or about 3.64% of the total trapping days/nights.  
+
 
 \newpage
 
-The peak for wild coho smolt outmigration occured between the last week of May and the first two weeks of June. The date with the greatest count of coho (wild) was June 4, 2024, with a total count of 1681 fish. The date with the lowest count of coho (wild) was June 24, 2024, with a total count of 17 fish. There were more coho (wild) present at the fence site than the barn site with a total count of 12, 865 fish and 5,727 fish, respectively. 
+The peak for wild coho smolt outmigration occurred between the last week of May and the first two weeks of June (Figure 1). The date with the greatest count of coho (wild) was June 4, 2024, with a total count of 1,681 fish between the two sites. The date with the lowest count of coho (wild) was June 24, 2024, with a total count of 17 fish. There were more coho (wild) caught at the fence site than the barn site with a total count of 12,865  fish and 5,727 fish, respectively.
 
 ```{r, fig.cap="Figure 1. Daily count of coho (wild) at each site (barn vs fence)."}
 daily_counts_cow <- df_fish %>%
@@ -265,7 +193,7 @@ ggplot(daily_counts_cow, aes(x = date, y = daily_count, color = site, linetype =
 
 \newpage
 
-Each wild coho smolt was seperated into size categories so they could be CWT tagged with the correct head mold size. Ensuring that the correct head mold size was important for retention purposes. The first 25 coho at each site was measured for fork length to the nearest millimeter. After the first 25 coho, the remainder of fish were sorted by eye or using the fish viewer. Coho between 86-115 mm was most abundant with a total of 13588 fish. Coho between 70-85 mm and 116-190 mm had similar counts with a total of 1161 and 1145, respectively. Coho between 60-69 mm and >190 mm was least abundant with totals of 206 and 1, respectively. 
+Each wild coho smolt was separated into size categories so they could be CWT tagged with the correct head mold size. Coho between 86-115 mm were most abundant with a total of 13,588 fish (Figure  2). Coho between 70-85 mm and 116-190 mm had similar counts with a total of 1,161 and 1,145, respectively. Coho between 60-69 mm and >190 mm was least abundant with totals of 206 and 1 fish, respectively. 
 
 ```{r, fig.cap="Figure 2. Total count of coho (wild) by size category."}
 size_order <- c("little", "small", "big", "bigger", "biggest")
@@ -323,12 +251,13 @@ ggsave("co_w_size_histogram.png", width = 7, height = 5)
 
 \newpage
 
-The bubble plot presented in Figure 3 visually represents the age-length key for wild coho smolts sampled from Toboggan Creek. The plot shows the relationship between the fork length (mm) and the age of the fish using the Gilbert-rich (GR) age classification system.The size of each bubble reflects the relative frequency (proportion) of fish that belong to a particular age within each length group.
+The bubble plot presented in Figure 3 visually represents the age estimates for all smolts captured after applying the age-length key for wild coho smolts. The plot shows the relationship between the fork length (mm) and the age of the fish using the Gilbert-Rich (GR) age classification system. 
 
-The proportions allows for a clear visualization of how the age structure is distributed across different length categories. The plot illustrates that most coho smolts in the their second year of life have a fork length that range between 55-110 mm while smolts in their third year of life mostly range between 110-165 mm. Most of the coho smolts in their fourth of year of life ranged between 170-185 mm. 
+The plot illustrates that most coho smolts in the their second year of life have a fork length that range between 55-110 mm while smolts in their third year of life mostly range between 110-165 mm. Most of the coho smolts in their fourth of year of life ranged between 170-185 mm.
 
 
-```{r, results = 'hide', fig.cap="Figure 3. Bubble plot representation of the observed age-length key for wild coho smolts at Toboggan Creek. Age is represented by the Gilbert-rich (GR) age designation system. The area of each circle is proportional to the proportion of fish in a length interval that are a given age."}
+
+```{r, results = 'hide', fig.cap="Figure 3. Bubble plot representation of the observed age-length key for wild coho smolts at Toboggan Creek. Age is represented by the Gilbert-rich (GR) age designation system."}
 
 df_co_w <- df_fish %>% 
   filter(species == "Coho (wild)") %>% 
@@ -348,21 +277,41 @@ alk.freq <- xtabs(~ lcat5 + `GR AGE`, data = aged)
 rowSums(alk.freq)
 alk <- prop.table(alk.freq, margin=1)
 
-mlr <- multinom(`GR AGE`~lcat5, data=aged,maxit=500)
-lens <- seq (50, 200, 5)
-alk.sm <- predict(mlr,data.frame(lcat5=lens), type="probs")
-row.names(alk.sm) <- lens
-row(alk)
-
-alkPlot(alk, type="bubble", xlab="Fork Length (mm)", ylab="Age", yaxt="n", col = "skyblue")  # Suppress default y-axis labels
-axis(2, at=c(22, 33, 44), labels=c(22, 33, 44), tick=FALSE)
+ggplot(aged, aes(x = fork_length_mm, y = `GR AGE`)) +
+  geom_point(
+    color = "skyblue",
+    size = 3,
+    alpha = 0.7
+  ) +
+  scale_y_continuous(
+    breaks = c(22, 33, 44),
+    labels = c("22", "33", "44"),
+    expand = expansion(mult = c(0.05, 0.05))
+  ) +
+  scale_x_continuous(
+    breaks = seq(50, 200, 25),
+    expand = expansion(mult = c(0.02, 0.02))
+  ) +
+  labs(
+    x = "Fork Length (mm)",
+    y = "Age"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major = element_line(color = "grey80", linewidth = 0.4),
+    panel.grid.minor = element_blank(),
+    axis.text = element_text(color = "black"),
+    axis.title = element_text(color = "black"),
+    axis.ticks = element_line(color = "black"),
+    axis.ticks.length = unit(0.2, "cm")
+  )
 
 ```
 
 
 \newpage
 
-Figure 4 illustrates the log-transformed weight-length relationship for coho salmon. The scatterplot presents individual observations of fork length (mm) and weight (g), with a fitted regression line overlaid in blue. An untransformed weight-length relationship for fish is often nonlinear because fish add a linear amount of length but a three-dimensional volume of mass. The weights of fish shorter in length are often less variable than the weights of fish larger in length. Therefore, a log-log linear regression model was applied to describe the weight-length relationship. The linear trend describes the growth pattern in coho where weight increases at an exponential rate relative to length.
+Figure 4 illustrates the log-transformed weight-length relationship for coho salmon. The linear trend describes the growth pattern in coho where weight increases at an exponential rate relative to length. Fulton’s Condition Factor (K) was calculated and the mean condition factor was 1.08 (+/- 0.12 SD), with values ranging from 0.50 to 2.87.  
 
 
 ```{r, fig.cap="Figure 4. Weight-Length model for coho smolts.", results = 'hide'}
@@ -375,7 +324,7 @@ df_fish_coho <- df_fish %>%
     fork_length_mm > 0
   )
 
-length_weight_model <- lm(log(weight_g) ~ log(fork_length_mm), data = df_fish_coho)
+length_weight_model <- lm(log10(weight_g) ~ log10(fork_length_mm), data = df_fish_coho)
 summary(length_weight_model)
 
 ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
@@ -384,13 +333,13 @@ ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
   scale_x_log10() +  # Apply log scale to x-axis
   scale_y_log10() +  # Apply log scale to y-axis for consistency
   labs(
-    x = "Fork Length (mm)",
-    y = "Weight (g)"
+    x = expression(log[10](Fork~Length~(mm))),
+    y = expression(log[10](Weight~(g)))
   ) +
-      annotate("text", 
-           x = max(df_fish_coho$fork_length_mm) * 0.9,  # Move closer to right
-           y = min(df_fish_coho$weight_g) * 3,  # Move lower
-           label = "log(Weight) = -10.8 + 2.86 * log(Length)", 
+  annotate("text", 
+           x = max(df_fish_coho$fork_length_mm) * 0.9,  # Leave in original scale
+           y = min(df_fish_coho$weight_g) * 3,  # Leave in original scale
+           label = expression(log[10](Weight) == -4.70 + 2.86 * log[10](Length)), 
            size = 3.5,  # Make text smaller
            hjust = 1, 
            fontface = "italic") +
@@ -454,28 +403,46 @@ mortality_summary %>%
       
 ```
 
+While great care and precaution was taken to ensure as little harm as possible, a relatively small percentage of mortalities did occur, both accidentally and intentionally. Accidental moralities could have occurred through stress from the traps, anesthesia, handling, or a combination of all. Intentional mortalities occurred for two reasons. Firstly, a small sample (0.07%) of wild coho were sacrificed at the beginning of the season to check for correct CWT placement in order to determine the correct head mold size to use for tagging. Secondly, all hatchery coho were culled in order to retrieve their CWTs. 
 
-While great care and precaution was taken to ensure as little harm as possible, a relatively small percentage of mortalities did occur, both accidentally and intentionally. Accidental moralities could have occurred through stress from the traps, anesthesia, handling, or a combination of all. Intentional mortalities occurred for two reasons. Firstly, a small sample (0.07%) of wild coho were sacrificed at the beginning of the season to check for correct CWT placement. Secondly, all hatchery coho were culled in order to retrieve their CWTs. A total of 8 hatchery smolts were identified to be 2023 releases and the rest had tags that could not be identified. 
+The 24-hour retention rates were generally quite high and the average retention for the two representative days was applied to the rest of the injected fish that week (Table 3). Any shed tags from the subsample were also re-tagged and re-added to the total releases. A total of 15,420 coho were estimated as released to the ocean with a coded-wire tag (Table 3). Size classes were generally kept consistent within the coded-wire tag code, so some anecdotal information about the size of fish in the ocean catches can be drawn from the tag size. 
+
+\newpage 
+
+Mark-Recapture
+
+If using a simple Lincoln Petersen estimator with Chapman modifier using the number of wild coho tagged and released at the barn RST upstream (5,559), the total number of wild coho over 70 mm in fork length caught at the fence RST downstream (12,534) and the total recaptured at the fence trap (2,145), we estimate the wild smolt population was 32,476 (500 SE; R package recapr ref) in 2024. The trap efficiency was very high, with 38.5% of the total population caught at the downstream trap alone.  
+
+Figure 5: Comparison of daily mark sequence applied at the barn (the upstream trap) in the bubble plot scaled by number of applied tags. The bar chart shows the daily number of recaptures at the fence site (downstream) with the different caudal clips. “none” meant that the caudal clip was not recognizable, and this was the case for a small number of recaptures throughout the season.
 
 \newpage
 
-```{r, fig.cap="Figure 5. Discharge levels taken from Government of Canada's 'Real-Time Hydrometric Data Graph for Simpson Creek at the Mouth (08EE012) [BC].' The Simpson Creek at the Mouth station was used as a surrogate for Toboggan Creek which did not have a station with discharge levels. The two creeks had similar levels of discharge based on DFO staff observations and readings. Source: https://wateroffice.ec.gc.ca/report/real_time_e.html?stn=08EE012&mode=Graph&startDate=2024-04-30&endDate=2024-06-28&prm1=47&y1Max=&y1Min=&prm2=-1&y2Max=&y2Min="}
+```{r, fig.cap="Figure 5. Discharge levels taken from Government of Canada's 'Real-Time Hydrometric Data Graph for Simpson Creek at the Mouth (08EE012) [BC].' The Simpson Creek at the Mouth station was used as a surrogate for Toboggan Creek which did not have a station with discharge levels. The two creeks had similar levels of discharge based on DFO staff observations and readings."}
 knitr::include_graphics("discharge.png")
 ```
+
+Figure 6 illustrates that pulses in streamflow – often associated with rainfall or glacial melt events – corresponded with increases in coho smolt captures. The data suggests that increased flows may act as a migratory cue for coho smolts . These flow pulses temporarily increase water velocity and access to channel margins—conditions that collectively facilitate safer, more energetically efficient downstream movement. This relationship reinforces the importance of integrating environmental monitoring into smolt trapping programs to better understand migration drivers and inform predictive modeling.  
+Fish catches were occasionally impacted by environmental conditions. During periods of very low or very high water, the trap experienced periods of partial or full inoperability due to debris or flow levels. These events led to intermittent gaps or reductions in trap efficiency, especially on May 21, June 18 and 19, which may have resulted in fewer coho caught.
 
 \newpage
 
 ```{r, fig.cap="Figure 6. Water temperature levels taken by DFO staff. Water temperature was taken at the start of each site visit for both the barn and fence sites."}
 knitr::include_graphics("watertemperature.png")
 ```
+Figure 7. illustrates the water temperatures levels taken during each site visit. The pull points show temperatures taken when the traps were pulled (trap stops running and fish were collected for processing), primarily in the early mornings. The set points show temperatures taken when the traps were set in the evenings (traps start running and collecting fish overnight).  
+  
 
 \newpage
 
 # Conclusion
 
-The Toboggan Creek Coho Smolt program offers the longest-standing full indicator data for the North Coast. The Toboggan Creek Hatchery has released an average of about 32,000 tagged smolts from the spring of 1987 to 2023. Following the pause in hatchery smolt releases due to a disease outbreak in 2024, StAD was presented with a unique opportunity to focus on a wild smolt mark-recapture. The intensive field program, particularly during peak migration periods, involved close monitoring and maintenance of RSTs at two primary sites. Efforts led to the successful CWT'ing of over 15,000 wild smolts, allowing a comprehensive analysis of survival and exploitation rates. Population size was assessed to be at just over 30,000. 
+Following the pause in hatchery smolt releases due to a disease outbreak in 2024, StAD was presented with a unique opportunity to focus on a wild smolt mark-recapture. The intensive field program, particularly during peak migration periods, involved close monitoring and maintenance of RSTs at two primary sites. The 2024 Toboggan Smolt Program generated a population estimate of wild smolts to be just over 30,000, helped characterize the juvenile coho population in terms of size and age, and coded-wire tagged over 15,000 wild smolts, allowing a comprehensive analysis of survival and exploitation rates. Efforts proved that this program delivery is suitable and cost-effective in the future. 
 
-With preliminary analysis showing wild smolt survival to be higher than hatchery smolt survival, the continuation of wild marking will be critical for evaluating the effectiveness of past management strategies and informing future conservation efforts. The information gained on wild coho smolt marking will be invaluable in guiding sustainable fisheries management decisions and supporting the long-term health of North Coast Skeena coho stocks. 
+The Toboggan Creek Hatchery released an average of about 32,000 tagged smolts from the spring of 1987 to 2023. While the number of wild released was lower than historic hatchery releases, the likely higher survival of wild smolts make up for that smaller release. 
+ 
+With preliminary analysis showing wild smolt survival to be higher than hatchery smolt survival (Chicatun 2024), the continuation of wild marking will be critical for evaluating assumption that wild and hatchery survival is the same. The information gained on wild coho smolt marking will be invaluable in guiding sustainable fisheries management decisions and supporting the long-term health of North Coast Skeena coho stocks. Information about marine survival should available in fall 2025, when the majority of the smolts released in spring of 2024 should return as spawning adults (PSC Tech. Rep. No. 47).
+
+\newpage
 
 # References 
 Chicatun, Victoria, “Toboggan Smolt Standard Operating Procedures 2024 – DRAFT V2,” Fisheries and Oceans Canada North Coast Stock Assessment Branch. May, 2024.
@@ -488,3 +455,7 @@ Pacific Salmon Commission Northern Boundary Technical Committee (PSC NBTC), “S
 P. Wolf, “A trap for the capture of fish and other organisms moving downstream,” Transactions of the American Fisheries Society, vol. 80, pp. 41–45, 1951.
 
 SKR Consultants, “Toboggan Creek Coho Smolt Enumeration 2001,” Available: https://www.gov.bc.ca/TobogganCreekCohoSmoltEnumeration2001_1519664118144_9663846798.pdf, 2001.
+
+Environment Canada 2025. Real-Time Hydrometric Data Graph for SIMPSON CREEK AT THE MOUTH (08EE012) [BC] - Water Level and Flow - Environment Canada
+
+
