@@ -405,6 +405,10 @@ mortality_summary %>%
 
 While great care and precaution was taken to ensure as little harm as possible, a relatively small percentage of mortalities did occur, both accidentally and intentionally. Accidental moralities could have occurred through stress from the traps, anesthesia, handling, or a combination of all. Intentional mortalities occurred for two reasons. Firstly, a small sample (0.07%) of wild coho were sacrificed at the beginning of the season to check for correct CWT placement in order to determine the correct head mold size to use for tagging. Secondly, all hatchery coho were culled in order to retrieve their CWTs. 
 
+\newpage 
+
+-add table-
+
 The 24-hour retention rates were generally quite high and the average retention for the two representative days was applied to the rest of the injected fish that week (Table 3). Any shed tags from the subsample were also re-tagged and re-added to the total releases. A total of 15,420 coho were estimated as released to the ocean with a coded-wire tag (Table 3). Size classes were generally kept consistent within the coded-wire tag code, so some anecdotal information about the size of fish in the ocean catches can be drawn from the tag size. 
 
 \newpage 
@@ -417,7 +421,7 @@ Figure 5: Comparison of daily mark sequence applied at the barn (the upstream tr
 
 \newpage
 
-```{r, fig.cap="Figure 5. Discharge levels taken from Government of Canada's 'Real-Time Hydrometric Data Graph for Simpson Creek at the Mouth (08EE012) [BC].' The Simpson Creek at the Mouth station was used as a surrogate for Toboggan Creek which did not have a station with discharge levels. The two creeks had similar levels of discharge based on DFO staff observations and readings."}
+```{r, fig.cap="Figure 6. Discharge levels taken from Government of Canada's 'Real-Time Hydrometric Data Graph for Simpson Creek at the Mouth (08EE012) [BC].' The Simpson Creek at the Mouth station was used as a surrogate for Toboggan Creek which did not have a station with discharge levels. The two creeks had similar levels of discharge based on DFO staff observations and readings."}
 knitr::include_graphics("discharge.png")
 ```
 
@@ -426,9 +430,10 @@ Fish catches were occasionally impacted by environmental conditions. During peri
 
 \newpage
 
-```{r, fig.cap="Figure 6. Water temperature levels taken by DFO staff. Water temperature was taken at the start of each site visit for both the barn and fence sites."}
+```{r, fig.cap="Figure 7. Water temperature levels taken by DFO staff. Water temperature was taken at the start of each site visit for both the barn and fence sites."}
 knitr::include_graphics("watertemperature.png")
 ```
+
 Figure 7. illustrates the water temperatures levels taken during each site visit. The pull points show temperatures taken when the traps were pulled (trap stops running and fish were collected for processing), primarily in the early mornings. The set points show temperatures taken when the traps were set in the evenings (traps start running and collecting fish overnight).  
   
 
