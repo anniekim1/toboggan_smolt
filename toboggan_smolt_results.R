@@ -16,7 +16,7 @@ library(dplyr)
 library(nnet)
 
 
-file_path <- "C:/Users/KIMS/Documents/toboggan__smolt/toboggan_smolt_dataentry_COPY.csv"
+file_path <- "C:/Users/KIMS/Documents/toboggan__smolt/toboggan_smolt_dataentry_FINAL 2024.csv"
 df_fish <- read_csv(file_path)
 
 
@@ -59,7 +59,7 @@ summary_table <- df_fish %>%
   arrange(Species)
 
 summary_table %>%
-  kable(caption = "Table 1. Total count of fish for each species.", format = "pandoc") %>%
+  kable(caption = "Table 1. Total count of fish for each juvenile species.", format = "pandoc") %>%
   kable_styling(full_width = TRUE, position = "center", bootstrap_options = c("striped", "hover"))
 
 
@@ -91,7 +91,6 @@ ggplot(daily_counts_cow, aes(x = date, y = daily_count, color = site, linetype =
     plot.title = element_text(hjust = 0.5),
     axis.text.x = element_text(angle = 45, hjust = 1)
   )
-
 
 # Total count of wild coho smolts by size category ------------------------
 
@@ -146,59 +145,6 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
 
 # Age-length key ----------------------------------------------------------
 
-alk <- df_fish %>%
-  filter(!is.na(`GR AGE`), !is.na(fork_length_mm), species == "Coho (wild)") %>%
-  filter(`GR AGE` != "0M") %>% 
-  mutate(LengthGroup = cut(fork_length_mm, breaks = seq(0, max(fork_length_mm, na.rm = TRUE), by = 5))) %>%
-  group_by(LengthGroup, `GR AGE`) %>%
-  summarise(Count = n(), .groups = 'drop') %>%
-  group_by(LengthGroup) %>%
-  mutate(Freq = Count / sum(Count))
-
-assign_age <- function(length_group) {
-  probs <- alk %>% filter(as.character(LengthGroup) == as.character(length_group))
-  if (nrow(probs) > 0) {
-    sample(probs$`GR AGE`, 1, prob = probs$Freq)
-  } else {
-    NA
-  }
-}
-
-df_fish_age <- df_fish %>% 
-  filter(species == "Coho (wild)") %>%
-  mutate(LengthGroup = cut(fork_length_mm, breaks = seq(0, max(fork_length_mm, na.rm = TRUE), by = 5))) %>%
-  mutate(Assigned_Age = ifelse(is.na(`GR AGE`), sapply(LengthGroup, assign_age), `GR AGE`))
-
-bubble_data <- alk %>%
-  mutate(LengthMid = as.numeric(gsub("[()\\[\\]]", "", str_extract(LengthGroup, "\\d+"))) + 2.5)
-
-ggplot(bubble_data, aes(x = LengthMid, y = as.factor(`GR AGE`), size = Freq)) +
-  geom_point(alpha = 0.6, color = "blue") +
-  scale_size_area(max_size = 10) +
-  labs(x = "Fork Length (mm)",
-       y = "Age (GR)",
-       size = "Proportion") +
-  theme_minimal() +
-  theme(
-    legend.position = "none",  # Remove the legend
-    panel.grid.major.x = element_line(size = 0.3, color = "gray80", linetype = "dashed"),  # Dashed grid lines on x-axis
-    panel.grid.minor.x = element_line(size = 0.2, color = "gray90", linetype = "dashed"), # Dashed minor grid lines on x-axis
-    panel.grid.major.y = element_line(size = 0.3, color = "gray80", linetype = "dashed"),  # Dashed grid lines on y-axis
-    panel.grid.minor.y = element_line(size = 0.2, color = "gray90", linetype = "dashed")  # Dashed minor grid lines on y-axis
-  ) +
-  scale_x_continuous(
-    limits = c(50, max(bubble_data$LengthMid, na.rm = TRUE)),  # Force axis to start at 50
-    breaks = seq(50, max(bubble_data$LengthMid, na.rm = TRUE), by = 25),  # Labels at 50, 75, 100, etc.
-    minor_breaks = seq(0, max(bubble_data$LengthMid, na.rm = TRUE), by = 5)  # Grid lines every 10 mm
-  )
-
-
-ggsave("age_length_key_bubble_plot.png", width = 7, height = 5)
-
-
-
-# Age-length key 2.0 ------------------------------------------------------
-
 df_co_w <- df_fish %>% 
   filter(species == "Coho (wild)") %>% 
   select(fork_length_mm, `GR AGE`)
@@ -217,19 +163,37 @@ alk.freq <- xtabs(~ lcat5 + `GR AGE`, data = aged)
 rowSums(alk.freq)
 alk <- prop.table(alk.freq, margin=1)
 
-mlr <- multinom(`GR AGE`~lcat5, data=aged,maxit=500)
-lens <- seq (50, 200, 5)
-alk.sm <- predict(mlr,data.frame(lcat5=lens), type="probs")
-row.names(alk.sm) <- lens
-row(alk)
-
-alkPlot(alk, type="bubble", xlab="Fork Length (mm)", ylab="Age", yaxt="n", col = "skyblue")  # Suppress default y-axis labels
-axis(2, at=c(22, 33, 44), labels=c(22, 33, 44), tick=FALSE)
-
-alkPlot(alk, type="area", pal="gray", showLegend=TRUE,
-        leg.cex=0.7, xlab="Total Length (mm)")
+ggplot(aged, aes(x = fork_length_mm, y = `GR AGE`)) +
+  geom_point(
+    color = "skyblue",
+    size = 3,
+    alpha = 0.7
+  ) +
+  scale_y_continuous(
+    breaks = c(22, 33, 44),
+    labels = c("22", "33", "44"),
+    expand = expansion(mult = c(0.05, 0.05))
+  ) +
+  scale_x_continuous(
+    breaks = seq(50, 200, 25),
+    expand = expansion(mult = c(0.02, 0.02))
+  ) +
+  labs(
+    x = "Fork Length (mm)",
+    y = "Age"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major = element_line(color = "grey80", linewidth = 0.4),
+    panel.grid.minor = element_blank(),
+    axis.text = element_text(color = "black"),
+    axis.title = element_text(color = "black"),
+    axis.ticks = element_line(color = "black"),
+    axis.ticks.length = unit(0.2, "cm")
+  )
 
 # Weight-length model for coho smolts -------------------------------------
+
 
 df_fish_coho <- df_fish %>% 
   filter(
@@ -240,7 +204,7 @@ df_fish_coho <- df_fish %>%
     fork_length_mm > 0
   )
 
-length_weight_model <- lm(log(weight_g) ~ log(fork_length_mm), data = df_fish_coho)
+length_weight_model <- lm(log10(weight_g) ~ log10(fork_length_mm), data = df_fish_coho)
 summary(length_weight_model)
 
 ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
@@ -249,23 +213,51 @@ ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
   scale_x_log10() +  # Apply log scale to x-axis
   scale_y_log10() +  # Apply log scale to y-axis for consistency
   labs(
-    x = "Fork Length (mm)",
-    y = "Weight (g)"
+    x = expression(log[10](Fork~Length~(mm))),
+    y = expression(log[10](Weight~(g)))
   ) +
   annotate("text", 
-           x = max(df_fish_coho$fork_length_mm) * 0.9,  # Move closer to right
-           y = min(df_fish_coho$weight_g) * 3,  # Move lower
-           label = "log(Weight) = -10.8 + 2.86 * log(Length)", 
+           x = max(df_fish_coho$fork_length_mm) * 0.9,  # Leave in original scale
+           y = min(df_fish_coho$weight_g) * 3,  # Leave in original scale
+           label = expression(log[10](Weight) == -4.70 + 2.86 * log[10](Length)), 
            size = 3.5,  # Make text smaller
            hjust = 1, 
            fontface = "italic") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
-```
 
-```{r save-lw-plot, echo=FALSE}
-ggsave("co_w_size_histogram.png", width = 7, height = 5)
+# Fulton's Condition Factor -----------------------------------------------
 
+fish_fultons <- df_fish %>%
+  filter(
+    species == "Coho (wild)",
+    !is.na(fork_length_mm),
+    !is.na(weight_g),
+    fork_length_mm > 0,
+    weight_g > 0
+  ) %>%
+  mutate(K = weight_g/(fork_length_mm^3)*100000)
+
+fish_fultons %>%
+  summarise(
+    n = n(),
+    mean_K = mean(K),
+    sd_K = sd(K),
+    min_K = min(K),
+    q1_K = quantile(K, 0.25),
+    median_K = median(K),
+    q3_K = quantile(K, 0.75),
+    max_K = max(K)
+  )
+
+ggplot(fish_fultons, aes(x = K)) +
+  geom_histogram(binwidth = 0.05, fill = "steelblue", color = "white") +
+  labs(
+    title = "Distribution of Fulton's Condition Factor (K) - Wild Coho",
+    x = "Fulton's K",
+    y = "Frequency"
+  ) +
+  theme_minimal()
 
 # Mortalities -------------------------------------------------------------
 
@@ -314,5 +306,4 @@ mortality_summary %>%
                       "% Sacrifice"),
         caption = "Table 2. Accidental and sacrificed mortalities. Note that the percentages are calculated in comparison to the respective species, not the total count of all species."
   )
-
 
