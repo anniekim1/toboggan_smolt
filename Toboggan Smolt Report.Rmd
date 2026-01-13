@@ -163,7 +163,7 @@ Occasional periods of very low or very high flows impacted trap efficiency (see 
 
 The peak for wild coho smolt outmigration occurred between the last week of May and the first two weeks of June (Figure 1). The date with the greatest count of coho (wild) was June 4, 2024, with a total count of 1,681 fish between the two sites. The date with the lowest count of coho (wild) was June 24, 2024, with a total count of 17 fish. There were more coho (wild) caught at the fence site than the barn site with a total count of 12,865  fish and 5,727 fish, respectively.
 
-```{r, fig.cap="Figure 1. Daily count of coho (wild) at each site (barn vs fence)."}
+```{r, fig.cap="Figure 1. Daily count of coho (wild) at each site (barn vs fence). The Barn site was upstream with a 4 ft-diameter RST and fence site was downstream with a 6 ft-diameter RST. "}
 daily_counts_cow <- df_fish %>%
   filter(species == "Coho (wild)", site %in% c("barn", "fence")) %>%
   group_by(date, site) %>%
@@ -195,7 +195,7 @@ ggplot(daily_counts_cow, aes(x = date, y = daily_count, color = site, linetype =
 
 Each wild coho smolt was separated into size categories so they could be CWT tagged with the correct head mold size. Coho between 86-115 mm were most abundant with a total of 13,588 fish (Figure  2). Coho between 70-85 mm and 116-190 mm had similar counts with a total of 1,161 and 1,145, respectively. Coho between 60-69 mm and >190 mm was least abundant with totals of 206 and 1 fish, respectively. 
 
-```{r, fig.cap="Figure 2. Total count of coho (wild) by size category."}
+```{r, fig.cap="Figure 2. Total count of coho (wild) by size category, which roughly matched the head mold used for coded-wire tagging."}
 size_order <- c("little", "small", "big", "bigger", "biggest")
 co_w_size_counts <- df_fish %>%
   filter(species == "Coho (wild)", !is.na(size_cwt)) %>%
@@ -314,7 +314,7 @@ ggplot(aged, aes(x = fork_length_mm, y = `GR AGE`)) +
 Figure 4 illustrates the log-transformed weight-length relationship for coho salmon. The linear trend describes the growth pattern in coho where weight increases at an exponential rate relative to length. Fulton’s Condition Factor (K) was calculated and the mean condition factor was 1.08 (+/- 0.12 SD), with values ranging from 0.50 to 2.87.  
 
 
-```{r, fig.cap="Figure 4. Weight-Length model for coho smolts.", results = 'hide'}
+```{r, fig.cap="Figure 4. Weight-Length model for coho smolts. The scatterplot presents individual observations of fork length (mm) and weight (g), with a fitted regression line overlaid in blue.", results = 'hide'}
 df_fish_coho <- df_fish %>% 
    filter(
     species %in% c("Coho (wild)", "Coho (hatchery)"),  # Keep only co-w and co-a
