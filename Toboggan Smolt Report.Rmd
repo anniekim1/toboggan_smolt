@@ -15,7 +15,7 @@ output:
 
 Kim, A. and Peck, K. 2026. Toboggan Creek Coho Smolt Program 2024. Can. Manuscr. Rep. Fish. Aquat. Sci. XXXX: XX + XX p.
 
-The Toboggan Creek Coho Smolt Program is a part of the longest running coho indicator program for North Coast British Columbia. Following the absence of hatchery smolt releases due to a disease outbreak at Toboggan Hatchery, a unique opportunity to implement a wild smolt mark-recapture program was created. This program ran in the spring of 2024 to estimate the abundance, migration timing, size and age structure, and marine exploitation of wild coho salmon (Oncorhynchus kisutch, “coho”)  smolts outmigrating from Toboggan Creek, a tributary of the Bulkley River in Northern British Columbia. Wild coho smolts were captured using Rotary Screw Traps (RSTs) at two sites between the first of May and late June. A total of 18,615 wild coho smolts were captured with a subset biosampled for size, weight, age, and condition. Smolts ≥70 mm fork length were adipose clipped and coded-wire tagged, with tag retention evaluated through overnight holding procedures. The peak for wild coho smolt outmigration occurred from late May to mid-June, with the highest daily catch recorded on June 4, 2024. Fulton’s condition factor averaged 1.08 (±0.11 SD), and age analysis indicated that the population was dominated by age two smolts, followed by age three and age four smolts. Coho smolts were categorized by size and CWT tagged with the respective head mold size. Tag retention rates were high and a total of 15,420 wild smolts were estimated to be released with CWTs. Observations showed that the majority of fish moved from the upstream trap to the downstream trap within one week. The logically pooled stratified-Petersen estimator provided the most parsimonious model, yielding an estimated wild smolt population of 35,71 7+/- 1,317 SE individuals migrating from Toboggan Creek in 2024. Overall, the 2024 program successfully met its objectives and provided valuable information on wild coho smolts in Toboggan Creek. Continued monitoring will be important for evaluating assumptions about survival between wild and hatchery coho and for improving understanding of outmigration patterns and marine exploitation of coho in northern British Columbia.  
+The Toboggan Creek Coho Smolt Program is part of the longest running coho indicator program in the North Coast Area of British Columbia. Following an unfortunate whole-cohort failure of marked hatchery smolt releases at Toboggan Creek Hatchery, a unique opportunity arose to implement a wild smolt marking program. This program ran in the spring of 2024 to estimate the abundance, migration timing, and characteristics of wild smolts emigrating from Toboggan Creek, as well as mark a large component of the run with coded-wire tags (CWTs). Wild coho smolts were captured using Rotary Screw Traps (RSTs) at two sites between the first of May and late June. A total of 18,615 wild coho smolts were captured, with a subset biosampled for size, weight, age, and condition. Smolts were adipose clipped and coded-wire tagged, with tag retention evaluated through overnight holding procedures. Peak outmigration occurred from late May to mid-June. Age analysis indicated that the population was dominated by age two smolts, followed by age three and age four smolts (Gilbert-Rich ages). Tag retention rates were high with a total of 15,420 wild smolts estimated to be released with CWTs. The population was estimated at 35,717 (1,317 SE) individuals migrating from Toboggan Creek. Overall, the 2024 program successfully met its objectives and provided valuable information on wild coho smolts in Toboggan Creek. Continued monitoring will be important for evaluating assumptions about survival between wild and hatchery coho and for improving understanding of outmigration patterns and marine exploitation of coho in northern British Columbia.  
 
 # **RÉSUMÉ**
 
@@ -32,7 +32,6 @@ The Toboggan Creek Coho Smolt Program, which began in 1995 by DFO and was delive
 The project ran sporadically in the following years and became consistent by DFO in 2020, operated by the TCSSES. Marked hatchery smolts volitionally out-migrated from the hatchery ponds and were used as the “marked” component of the mark-recapture program estimating the smolt population size. An advantage of using Coded Wire Tags (CWT) was the ability to draw information on survival and/or abundance of a specific stock from highly mixed-stock fisheries (PSC NBTC, 2002). This method was particularly strong in predicting marine survival for tagged smolts. Since the Toboggan Creek Coho Smolt Program serves as an indicator for wild coho populations, it has operated under the assumption that hatchery and wild-origin smolts follow similar trends of migration and survival. However, whether survival and exploitation rates of hatchery and natural origin coho are the same is an assumption that has been recently called under question  (Unpublished data, DFO Smithers, 2024). Data from 2020 to 2023 suggest that survival rates may differ between wild and hatchery-origin coho, with environmental factors, management practices, and biological characteristics potentially influencing survival outcomes  (Unpublished data, DFO Smithers, 2024).
 
 The absence of a CWT hatchery smolt release in the spring of 2024, due to a disease outbreak at the hatchery, created challenges for determining exploitation rates for that year class. However, this setback presented a valuable opportunity to focus efforts on a wild-marking initiative. Therefore, DFO Stock Assessment ran a wild smolt trapping program in spring 2024 to bridge the gap of this missing year.
-
 
 ## **1.1 Objectives**
 
@@ -52,13 +51,14 @@ During peak migration and high water events, the number of visits were dependent
 
 Two sites (**Figure 1**)  were selected for the operation of this program, both accessed through private land:
 
+
 •	Red Barn: Located 2.5 km downstream of the hatchery. A 4-ft diameter RST was installed at this site.
 
 •	Adult Fence: The adult fence site was located 4.5 km downstream of the hatchery. Outside of the adult enumeration season in late summer and fall, a wooden sill with no adult fish migration barrier exists at this location. A 6-ft diameter RST was installed directly upstream of this structure and downstream of a private bridge. This was the same location as used for the previous years of smolt trapping but a larger diameter trap was installed in 2024 to maximize capture rates.
 
 -add map-
 
-*Figure 1. Map of the Toboggan Creek Coho Smolt Study Area. The two RST locations, the Fence and the Red Barn, are shown in relation to each other, the Toboggan Creek Hatchery, and the town of Smithers, B.C. Map created on QGIS by R. Hugdahl, DFO, 2026. Base maps: ESRI “Satellite”, ESRI “Gray (light)”. Coordinate reference system (CRS) is WGS 84 (EPSG:4326). Shapefiles used: Province of British Columbia, [Freshwater Atlas Rivers], DataBC. Licensed under the Open Government Licence – British Columbia; and Province of British Columbia, [BC Major Cities Points 1:2,000,000 (Digital Baseline Mapping)]. DataBC, Licensed under the Open Government Licence – British Columbia.*
+*Figure 1. Map of the Toboggan Creek Coho Smolt Study Area. The two RST locations, the Red Barn and the Adult Fence, are 2.5 km and 4.5 km downstream of the Toboggan Creek Hatchery, respectively. Map created on QGIS by R. Hugdahl, DFO, 2026. Base map: Coordinate reference system (CRS) is WGS 84 (EPSG:4326). Shapefiles used: Province of British Columbia, [Freshwater Atlas Rivers], DataBC. Licensed under the Open Government Licence – British Columbia; and Province of British Columbia, [BC Major Cities Points 1:2,000,000 (Digital Baseline Mapping)]. DataBC, Licensed under the Open Government Licence – British Columbia.*
 
 ## **2.1 ENVIRONMENTAL CONDITIONS**
 
@@ -66,7 +66,7 @@ To investigate the relationship between environmental variables and coho smolt o
 
 ## **2.2 BIOSAMPLING AND CWT TAGGING PROCEDURES**
 
-Detailed methods are found in Chicatun and Peck (2024), but relevant details are included below. While operating the traps, the goal was to minimize fish mortality and protect infrastructure. To meet the minimum target of 7000 CWT-marked smolts, both sites carried out adipose clipping and CWT marking with standard 1.1 mm tags with several codes. Additionally, a weekly-stratified clip was applied to smolts at the Red Barn (upstream) trap to estimate weekly outmigration, alternating between an upper and lower caudal clip each week. Recaptured fish at the downstream trap were inspected for a caudal clip. Biosampling of up to 25 smolts from each trap per day, including measurements of fork length, weight, and scale samples was conducted at both sites.
+Detailed methods are found in Chicatun and Peck (2024), but relevant details are included below. While operating the traps, the goal was to minimize fish mortality and protect infrastructure. Both sites carried out adipose clipping and CWT marking with standard 1.1 mm tags with several codes. Additionally, a weekly-stratified clip was applied to smolts at the Red Barn (upstream) trap to estimate weekly outmigration, alternating between an upper and lower caudal clip each week. Recaptured fish at the downstream trap were inspected for a caudal clip. Biosampling of up to 25 smolts from each trap per day, including measurements of fork length, weight, and scale samples was conducted at both sites.
 
 The first 25 coho smolts were measured for fork length to the nearest millimeter, and weights to the nearest 0.1 g. Scales were sampled starting at a fork length of 60 mm, with a target of 5-10 fish sampled for each 5 mm fork length interval. Any exceptionally large or small fish (down to 60 mm) was sampled for scales. Scales were sent to DFO’s Sclerochronology Lab at the end of the season for age determination in following the juvenile age sampling procedure (MacLellan 2004). All wild smolts >=70 mm were adipose clipped and tagged. Fish <70 mm were transferred to a separate bucket and released. This size cut off for coded-wire tagging was based on previous sampling data in Toboggan where the majority of smolts were >=70 mm. Similar coho smolt programs have also tagged smolts >=70 mm or >=80 mm (Leon et al., 2009 and Van et al., 2010) and considered coho smaller than that to be pre-smolts and fry (Noble et al., 2020).  At the Red Barn site, a caudal clip was applied according to the weekly stratification starting on Mondays (top or bottom). Fish were sorted based on size and tagged using the appropriate head mold size: small fish (70-85 mm): 65/lb head mold, big fish (86-115 mm): 45/lb, and bigger and biggest fish (116-190 mm or >190 mm): 15/lb head mold. Whenever there was a new tagger or tagging machine used, particularly at the beginning of the season, a small number of smolts were tagged and sacrificed to check for correct tag placement.
 
@@ -89,13 +89,13 @@ A subsample of aged wild coho were plotted with a linear regression between fork
 
 An assumption of mark-recapture models is the equal probability of release and recapture, which is likely violated in an outmigrating smolt population where smolts move directionally from the system (Schwarz and Taylor 1998). Therefore a weekly stratified mark-recapture estimator was used to calculate the outmigrating smolt population (>70 mm) upon arrival to the upstream trap using SPAS (Schwarz 2025). A simple Lincoln-Petersen estimator (i.e. fully pooled strata) was compared to a fully stratified estimator (i.e. all weekly strata kept as-is), and an automatic logical pooling of strata estimator (i.e. strata pooled where catchability was similar) using AICc (Burnham and Anderson 2002).
 
-Otherwise, all data manipulation and visualization were conducted using R Studio (v 4.4.2; R Core Team 2025) and packages tidyverse, readr, ggplot2, dplyr, knitr, kableExtra, scales, tidyr, flextable, FSA, magrittr, and nnet.
+Otherwise, all data manipulation and visualization were conducted using R Studio (v 4.4.2; R Core Team 2025) and packages tidyverse (Wickham et al., 2019), readr (Wickham et al., 2024), ggplot2 (Wickham, 2016), dplyr (Wickham et al., 2023), knitr (Xie, 2024) (Xie, 2015) (Xie, 2014), kableExtra (Zhu, 2024), scales (Wickham et al., 2023), tidyr (Wickham et al., 2024), flextable (Gohel and Skintzoas, 2024), FSA (Ogle et al., 2025), magrittr (Bache and Wickham, 2022), and nnet (Venables and Ripley, 2002)
+
 
 
 \newpage
 
 # **3. RESULTS AND DISCUSSION**
-
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
@@ -144,9 +144,9 @@ plot.daily.co.smolt
 
 ```
 
-Water temperatures increased throughout the season at a rate of 0.06 degrees Celsius per day (p<0.001), and were generally cooler in the mornings and warmer in the evenings(**Figure 3**). The Fence site appeared to be consistently cooler compared to the Red Barn site but the difference was not significant (p = 0.18).
+Water temperatures increased throughout the season at a rate of 0.06 degrees Celsius per day (p<0.001), and were generally cooler in the mornings and warmer in the evenings (**Figure 3**). The Fence site appeared to be consistently cooler compared to the Red Barn site but the difference was not significant (p = 0.18).
 
-```{r Figure 3 temps, fig.cap="Figure 3. Water temperature was measured at the start of each site visit for both the Red Barn (pink) and Fence (teal) sites. The “pull” points (circles) represent temperatures taken when traps were checked (usually in the morning when smolts were collected for processing). The “set” points (triangles) represent temperatures measured when traps were reset in the evenings.", dpi=300}
+```{r Figure 3 temps, fig.cap="Figure 3.Water temperature was measured at the start of each site visit for both the Red Barn (pink) and Fence (teal) sites. The “pull” points (circles) represent temperatures taken when traps were checked (usually in the morning when smolts were collected for processing). The “set” points (triangles) represent temperatures measured when traps were reset in the evenings.", dpi=300}
 
 plot.water.temp24
 
@@ -199,7 +199,7 @@ summary_table %>%
 
 ## **3.3 SMOLT MIGRATION TIMING**
 
-The peak for wild coho smolt outmigration in 2024 occurred between the last week of May and the first two weeks of June (**Figure 4**). The highest count of coho smolts was observed on June 4th with a total count of 1,681 smolts  across both sites. The lowest count of coho smolts was observed on June 24th, with a total count of 17 smolts.
+The peak for wild coho smolt outmigration in 2024 occurred between the last week of May and the first two weeks of June (**Figure 4**). The highest count of coho smolts was observed on June 4th with a total count of 1,681 smolts  across both sites. The lowest count of coho smolts was observed on June 24th,  with a total count of 17 smolts.
 
 ```{r Figure 4 timing, fig.cap="Figure 4. Daily count of coho (wild) at each site (Red Barn vs Fence). The upstream Red Barn hosted a 4 ft-diameter RST and the downstream  Fence site hosted a 6 ft-diameter RST.", dpi=300}
 daily_counts_cow <- df_fish %>%
@@ -392,12 +392,11 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
 ```
 
 24-hour CWT retention rates were generally quite high, and the average retention of the two representative days at the start of the week was applied to all injected fish that week (**Table 3**). Any non-retained tags from the subsample were re-tagged and re-added to the total releases. A total of 15,420 wild coho smolts were estimated to be released to the ocean with a CWT. Size classes were generally consistent within the coded-wire tag codes, so some anecdotal information about the size of fish in marine harvests can be drawn from the tag codes.
-
 ```{r Table 3 CWT tags}
 
 kable(CWT.tag.summary2024 %>% select(-est.retained),
          col.names = c("Tag Code","#Inj","Est.Lost","#Re-tagged","Total Releases","Mean FL(mm)","SD FL(mm)","Mean Wt(g)","SD Wt(g)"),
-         caption = "Table 3. Summary of the number of injected smolts for each coded-wire tag code series. Coho were generally sorted by size for coded-wire tagging. Estimated retention was based on a subsample of tagged smolts each week held for 24 hours after initial tagging.",
+         caption = "Table 3. Summary of the number of injected smolts for each coded-wire tag code series. Coho were generally sorted by size for coded-wire tagging. Estimated retention was based on a subsample of tagged smolts each week held for 24 hours after initial tagging. Average and standard deviation of fork length (FL in mm) and weight (Wt in g) for each tag code are also presented.",
          format = "pandoc", align = "c") 
   
 ```
@@ -426,7 +425,8 @@ A comparison of fully pooled Lincoln-Petersen, fully stratified, and logically-p
 
 kable(report.table,
       col.names = c("Model","s","t","AICc","Delta AICc","gof.chisq", "gof.df", "gof.p",  "Nhat", "Nhat SE"),
-        caption = "Table 5. Summary of the number of injected smolts for each CWT code series. Coho were generally sorted by size for tagging. Estimated retention was based on a subsample of tagged smolts each week held for 24 hours after initial tagging.", 
+        caption = "Table 5. Comparison of candidate stratified population estimate models for the Toboggan Creek Smolt project. The Full weekly strata model did not pool any strata, the Auto (logical) pooling model pooled the first two and the last two weeks for the tagging season, and the Logical pooling to single row (LP) pooled all rows to essentially reduce to a Lincoln-Petersen estimate. s and t are the number of weekly strata of tagging and recapture, respectively, AICc is Akaike’s Information Criterion corrected for small sample sizes, GOF is a goodness of fit test, in this case a Chi2, df is degrees of freedom and p is probability. N ̂ is the population estimate of wild smolts and N ̂ SE is the standard error around the estimate.
+", 
         format = "pandoc",full_width=T, latex_options = "HOLD_position",bootstrap_options = c("striped", "hover")
 )
 
@@ -441,9 +441,14 @@ Following the pause in hatchery smolt releases due to a disease outbreak in 2024
 The continuation of the wild smolt marking program will be key for evaluating the assumption that wild and hatchery coho survival is comparable, which has been a key assumption of the Toboggan Creek Coho Indicator Program. This project provided valuable information  about the wild coho smolt population in Toboggan Creek, which can be compiled with the many years of smolt data for Toboggan Creek to assess trends and changes over time. Information about marine survival should be available after the fall of 2025, when the majority of the smolts released in spring of 2024 should return as spawning adults (PSC NBTC, 2022).
 
 
+
 \newpage
 
 # **5.	ACKNOWLEDGEMENTS**
+
+Funding for this project was provided by the Pacific Salmon Commission’s Northern Endowment Fund and the Department of Fisheries and Oceans Canada (DFO). Field work was conducted by staff from the DFO and the Toboggan Creek Salmon and Steelhead Enhancement Society (TCSSES). The pilot project operating procedures were developed by V. Chicatun and K. Peck, with feedback from R. Whitmore. Thank you to reviewers…. XXX
+
+Thanks to everyone who contributed to the project this year, and especially to the landowners who generously provided access to the creek and trap infrastructure through their properties.
 
 \newpage
 
@@ -485,9 +490,7 @@ Venables, W.N. and Ripley, B.D. (2002) Modern applied statistics with S. 4th edn
 
 Wickham, H. (2016) ggplot2: Elegant graphics for data analysis. New York, NY: Springer.
 
-Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K. and Yutani, H. (2019)
-
-Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.L., Miller, E., Bache, S.M., Müller, K., Ooms, J., Robinson, D., Seidel, D.P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K. and Yutani, H. (2019) Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686
 
 Wickham, H., François, R., Henry, L., Müller, K. and Vaughan, D. (2023) dplyr: A grammar of data manipulation. R package version 1.1.4. Available at: https://CRAN.R-project.org/package=dplyr
 
@@ -506,7 +509,6 @@ Xie, Y. (2015) Dynamic documents with R and knitr. 2nd edn. Boca Raton, FL: Chap
 Xie, Y. (2024) knitr: A general-purpose package for dynamic report generation in R. R package version 1.49. Available at: https://yihui.org/knitr/
 
 Zhu, H. (2024) kableExtra: Construct complex table with “kable” and pipe syntax. R package version 1.4.0. Available at: https://CRAN.R-project.org/package=kableExtra
-
 
 \newpage
 
