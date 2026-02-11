@@ -134,7 +134,7 @@ source("Environmental.R")
 ```
 
 
-## *3.1 ENVIRONMENTAL CONDITIONS **
+## **3.1 ENVIRONMENTAL CONDITIONS **
 
 The season began on May 1st, 2024 with only five nights of trapping per week, then switched to seven nights per week as of the trap set on the evening of May 19th, and back to five nights on June 14th. Trapping was only occasionally impacted by environmental conditions; during periods of very low or very high water, the traps experienced periods of partial or full inoperability due to debris or flow levels for two nights on June 18th and 19th (**Figure 2**). This period represents about 3.64% of the total trapping days/nights for the entire season. 
 
@@ -572,3 +572,4 @@ SPAS::SPAS.print.model(mod3)
 #   )
 
 ```
+
