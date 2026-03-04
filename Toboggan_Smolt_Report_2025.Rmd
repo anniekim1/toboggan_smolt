@@ -352,7 +352,7 @@ mortality_summary %>%
 
 ## **3.5 AGE AND SIZE**
 
-**Figure 7** illustrates the log-log transformed weight-length relationship for measured wild coho. The linear trend describes the growth pattern in coho, where weight increases at an exponential rate relative to length. Fulton’s Condition Factor (K) was calculated and the mean condition factor was 1.08 (+/- 0.11 SD), with values ranging from 0.60 to 1.65.
+**Figure 7** illustrates the log-log transformed weight-length relationship for measured wild coho. The linear trend describes the growth pattern in coho, where weight increases at an exponential rate relative to length. Fulton’s Condition Factor (K) was calculated and the mean condition factor was 1.06 (+/- 0.10 SD), with values ranging from 0.65 to 1.85.
 
 ```{r Figure 7, fig.cap="Figure 7. Log-log weight-length individual values and relationship for coho smolts. The scatterplot presents individual observations of fork length (mm) and weight (g), with a fitted regression line overlaid in blue and the regression described in the formula within the plot.", results = 'hide', dpi=300}
 df_fish_coho <- df_fish %>% 
