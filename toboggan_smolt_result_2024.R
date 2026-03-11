@@ -16,9 +16,8 @@ library(dplyr)
 library(nnet)
 
 
-file_path <- "C:/Users/KIMS/Documents/toboggan__smolt/toboggan_smolt_dataentry_FINAL 2024.csv"
+file_path <- "U:/Toboggan/2024/Toboggan Smolt Report/toboggan_smolt_dataentry_FINAL 2024.csv"
 df_fish <- read_csv(file_path)
-
 
 # Data Labeling -----------------------------------------------------------
 
@@ -95,8 +94,16 @@ ggplot(daily_counts_cow, aes(x = date, y = daily_count, color = site, linetype =
 # Total count of wild coho smolts by size category ------------------------
 
 size_order <- c("little", "small", "big", "bigger", "biggest")
+
 co_w_size_counts <- df_fish %>%
-  filter(species == "Coho (wild)", !is.na(size_cwt)) %>%
+  filter(
+    species == "Coho (wild)",
+    !is.na(size_cwt),
+    !is.na(tag_code),
+    tag_code != "",
+    tolower(sacrifice) != "yes",
+    tolower(mort) != "yes"
+  ) %>%
   group_by(size_cwt) %>%
   summarise(total_count = sum(count, na.rm = TRUE), .groups = "drop") %>%
   mutate(size_cwt = factor(size_cwt, levels = size_order))
@@ -106,9 +113,9 @@ if (nrow(co_w_size_counts) == 0) stop("Error: No size data for Coho (wild) avail
 ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
   geom_bar(stat = "identity", color = "black") +
   labs(
-    x = "Size Category", 
-    y = "Total Count",
-    fill = "Size Category"  # Change legend title
+    x = "Size Category",
+    y = "Total Coded-Wire Tags Applied",
+    # fill = "Size Category"  # Change legend title # KP: legend just repeated x axis, removed
   ) +
   scale_x_discrete(
     labels = c(
@@ -121,10 +128,10 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
   ) +
   scale_fill_manual(
     values = c(
-      "little" = "lightblue", 
-      "small" = "blue", 
-      "big" = "darkblue", 
-      "bigger" = "purple", 
+      "little" = "lightblue",
+      "small" = "blue",
+      "big" = "darkblue",
+      "bigger" = "purple",
       "biggest" = "red"
     ),
     labels = c(
@@ -135,12 +142,61 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
       "biggest" = ">190 mm"
     )
   ) +
-  theme_minimal() +
+  theme_bw() +
   theme(
-    plot.title = element_text(hjust = 0.5),
-    axis.text.x = element_text(angle = 45, hjust = 1)
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
   ) +
   scale_y_continuous(breaks = pretty_breaks(n = 6))
+#ggsave("co_w_size_histogram.png", width = 7, height = 5)
+
+# size_order <- c("little", "small", "big", "bigger", "biggest")
+# co_w_size_counts <- df_fish %>%
+#   filter(species == "Coho (wild)", !is.na(size_cwt)) %>%
+#   group_by(size_cwt) %>%
+#   summarise(total_count = sum(count, na.rm = TRUE), .groups = "drop") %>%
+#   mutate(size_cwt = factor(size_cwt, levels = size_order))
+# 
+# if (nrow(co_w_size_counts) == 0) stop("Error: No size data for Coho (wild) available.")
+# 
+# ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
+#   geom_bar(stat = "identity", color = "black") +
+#   labs(
+#     x = "Size Category", 
+#     y = "Total Count",
+#     fill = "Size Category"  # Change legend title
+#   ) +
+#   scale_x_discrete(
+#     labels = c(
+#       "little" = "60-69 mm",
+#       "small" = "70-85 mm",
+#       "big" = "86-115 mm",
+#       "bigger" = "116-190 mm",
+#       "biggest" = ">190 mm"
+#     )
+#   ) +
+#   scale_fill_manual(
+#     values = c(
+#       "little" = "lightblue", 
+#       "small" = "blue", 
+#       "big" = "darkblue", 
+#       "bigger" = "purple", 
+#       "biggest" = "red"
+#     ),
+#     labels = c(
+#       "little" = "60-69 mm",
+#       "small" = "70-85 mm",
+#       "big" = "86-115 mm",
+#       "bigger" = "116-190 mm",
+#       "biggest" = ">190 mm"
+#     )
+#   ) +
+#   theme_minimal() +
+#   theme(
+#     plot.title = element_text(hjust = 0.5),
+#     axis.text.x = element_text(angle = 45, hjust = 1)
+#   ) +
+#   scale_y_continuous(breaks = pretty_breaks(n = 6))
 
 
 # Age-length key ----------------------------------------------------------
@@ -194,10 +250,9 @@ ggplot(aged, aes(x = fork_length_mm, y = `GR AGE`)) +
 
 # Weight-length model for coho smolts -------------------------------------
 
-
 df_fish_coho <- df_fish %>% 
   filter(
-    species %in% c("Coho (wild)", "Coho (hatchery)"),  # Keep only co-w and co-a
+    species %in% c("Coho (wild)"), 
     !is.na(fork_length_mm), 
     !is.na(weight_g), 
     weight_g > 0, 
@@ -207,11 +262,18 @@ df_fish_coho <- df_fish %>%
 length_weight_model <- lm(log10(weight_g) ~ log10(fork_length_mm), data = df_fish_coho)
 summary(length_weight_model)
 
+eq.log10FLwt <- paste0(expression(log[10](Weight)),"=",round(coef(length_weight_model)[1],2),
+                       "+",round(coef(length_weight_model)[2],2),"*",expression(log[10](Length)))
+
+
 ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
   geom_point(alpha = 0.5) +
   geom_smooth(method = "lm", col = "blue") +
   scale_x_log10() +  # Apply log scale to x-axis
   scale_y_log10() +  # Apply log scale to y-axis for consistency
+  # annotate("text",label= eq.log10FLwt,
+  #          x = max(df_fish_coho$fork_length_mm) * 0.9,
+  #          y = min(df_fish_coho$weight_g) * 3)
   labs(
     x = expression(log[10](Fork~Length~(mm))),
     y = expression(log[10](Weight~(g)))
@@ -219,12 +281,14 @@ ggplot(df_fish_coho, aes(x = fork_length_mm, y = weight_g)) +
   annotate("text", 
            x = max(df_fish_coho$fork_length_mm) * 0.9,  # Leave in original scale
            y = min(df_fish_coho$weight_g) * 3,  # Leave in original scale
-           label = expression(log[10](Weight) == -4.70 + 2.86 * log[10](Length)), 
+           label = eq.log10FLwt, 
            size = 3.5,  # Make text smaller
            hjust = 1, 
            fontface = "italic") +
-  theme_minimal() +
+  theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
+
+#ggsave("co_w_size_histogram.png", width = 7, height = 5)
 
 # Fulton's Condition Factor -----------------------------------------------
 
@@ -262,6 +326,7 @@ ggplot(fish_fultons, aes(x = K)) +
 # Mortalities -------------------------------------------------------------
 
 mortality_summary <- df_fish %>%
+  filter(species != "co-f" & species != "Coho (hatchery)") %>% 
   group_by(species) %>%
   summarise(
     `Total Fish per Species` = sum(count, na.rm = TRUE),  
@@ -304,6 +369,7 @@ mortality_summary %>%
                       "Total Sacrifice", 
                       "% Accidental", 
                       "% Sacrifice"),
-        caption = "Table 2. Accidental and sacrificed mortalities. Note that the percentages are calculated in comparison to the respective species, not the total count of all species."
+        caption = "Table 2. Accidental and sacrificed mortalities by species or wild/hatchery status. Percentages are out of the total of each captured species."
   )
+
 
