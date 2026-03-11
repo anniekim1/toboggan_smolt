@@ -91,8 +91,6 @@ An assumption of mark-recapture models is the equal probability of release and r
 
 Otherwise, all data manipulation and visualization were conducted using R Studio (v 4.4.2; R Core Team 2025) and packages tidyverse (Wickham et al., 2019), readr (Wickham et al., 2024), ggplot2 (Wickham, 2016), dplyr (Wickham et al., 2023), knitr (Xie, 2024) (Xie, 2015) (Xie, 2014), kableExtra (Zhu, 2024), scales (Wickham et al., 2023), tidyr (Wickham et al., 2024), flextable (Gohel and Skintzoas, 2024), FSA (Ogle et al., 2025), magrittr (Bache and Wickham, 2022), and nnet (Venables and Ripley, 2002)
 
-
-
 \newpage
 
 # **3. RESULTS AND DISCUSSION**
@@ -340,10 +338,21 @@ plot.fork.length.age
 
 Wild coho smolts were sorted into size categories to be tagged using the correct head mold size. Coho between 86-115 mm were most abundant, with a total of 13,571 smolts intercepted (**Figure 7**). Coho between 70-85 mm and 116-190 mm were intercepted in similar numbers, with a total of 1,152 and 1,144 smolts, respectively. Coho between 60-69 mm and >190 mm were least abundant, with totals of 364 and 1 smolt intercepted, respectively.
 
-```{r Figure 7, fig.cap="Figure 7. Total counts of coho (wild) by size category, which matched the head mold sizes used for tagging using CWTs.", dpi=300}
+```{r Figure 7, fig.cap="Figure 7. Total counts of coho (wild) by size category, which matched the head mold sizes used for tagging using CWTs.", fig.width=7, fig.height=5, dpi=300}
+
+#filtered out if no tag_code, or if it is a mort or sacrifice
+
 size_order <- c("little", "small", "big", "bigger", "biggest")
+
 co_w_size_counts <- df_fish %>%
-  filter(species == "Coho (wild)", !is.na(size_cwt)) %>%
+  filter(
+    species == "Coho (wild)",
+    !is.na(size_cwt),
+    !is.na(tag_code),
+    tag_code != "",
+    tolower(sacrifice) != "yes",
+    tolower(mort) != "yes"
+  ) %>%
   group_by(size_cwt) %>%
   summarise(total_count = sum(count, na.rm = TRUE), .groups = "drop") %>%
   mutate(size_cwt = factor(size_cwt, levels = size_order))
@@ -353,7 +362,7 @@ if (nrow(co_w_size_counts) == 0) stop("Error: No size data for Coho (wild) avail
 ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
   geom_bar(stat = "identity", color = "black") +
   labs(
-    x = "Size Category", 
+    x = "Size Category",
     y = "Total Coded-Wire Tags Applied",
     # fill = "Size Category"  # Change legend title # KP: legend just repeated x axis, removed
   ) +
@@ -368,10 +377,10 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
   ) +
   scale_fill_manual(
     values = c(
-      "little" = "lightblue", 
-      "small" = "blue", 
-      "big" = "darkblue", 
-      "bigger" = "purple", 
+      "little" = "lightblue",
+      "small" = "blue",
+      "big" = "darkblue",
+      "bigger" = "purple",
       "biggest" = "red"
     ),
     labels = c(
@@ -389,6 +398,55 @@ ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
   ) +
   scale_y_continuous(breaks = pretty_breaks(n = 6))
 #ggsave("co_w_size_histogram.png", width = 7, height = 5)
+
+# size_order <- c("little", "small", "big", "bigger", "biggest")
+# co_w_size_counts <- df_fish %>%
+#   filter(species == "Coho (wild)", !is.na(size_cwt)) %>%
+#   group_by(size_cwt) %>%
+#   summarise(total_count = sum(count, na.rm = TRUE), .groups = "drop") %>%
+#   mutate(size_cwt = factor(size_cwt, levels = size_order))
+# 
+# if (nrow(co_w_size_counts) == 0) stop("Error: No size data for Coho (wild) available.")
+# 
+# ggplot(co_w_size_counts, aes(size_cwt, total_count, fill = size_cwt)) +
+#   geom_bar(stat = "identity", color = "black") +
+#   labs(
+#     x = "Size Category", 
+#     y = "Total Coded-Wire Tags Applied",
+#     # fill = "Size Category"  # Change legend title # KP: legend just repeated x axis, removed
+#   ) +
+#   scale_x_discrete(
+#     labels = c(
+#       "little" = "60-69 mm",
+#       "small" = "70-85 mm",
+#       "big" = "86-115 mm",
+#       "bigger" = "116-190 mm",
+#       "biggest" = ">190 mm"
+#     )
+#   ) +
+#   scale_fill_manual(
+#     values = c(
+#       "little" = "lightblue", 
+#       "small" = "blue", 
+#       "big" = "darkblue", 
+#       "bigger" = "purple", 
+#       "biggest" = "red"
+#     ),
+#     labels = c(
+#       "little" = "60-69 mm",
+#       "small" = "70-85 mm",
+#       "big" = "86-115 mm",
+#       "bigger" = "116-190 mm",
+#       "biggest" = ">190 mm"
+#     )
+#   ) +
+#   theme_bw() +
+#   theme(
+#     axis.text.x = element_text(angle = 45, hjust = 1),
+#     legend.position = "none"
+#   ) +
+#   scale_y_continuous(breaks = pretty_breaks(n = 6))
+# #ggsave("co_w_size_histogram.png", width = 7, height = 5)
 ```
 
 24-hour CWT retention rates were generally quite high, and the average retention of the two representative days at the start of the week was applied to all injected fish that week (**Table 3**). Any non-retained tags from the subsample were re-tagged and re-added to the total releases. A total of 15,420 wild coho smolts were estimated to be released to the ocean with a CWT. Size classes were generally consistent within the coded-wire tag codes, so some anecdotal information about the size of fish in marine harvests can be drawn from the tag codes.
@@ -572,4 +630,3 @@ SPAS::SPAS.print.model(mod3)
 #   )
 
 ```
-
